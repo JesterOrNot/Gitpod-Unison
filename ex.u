@@ -1,0 +1,5 @@
+x = factorial 6
+Remote.transfer alice
+y = foo x -- happens on `alice` node
+Remote.transfer bob
+bar x y -- happens on `bob` node

@@ -1,0 +1,7 @@
+use .base
+
+isFour x =
+  if x == 4 then io.printLine "It's four"
+  else io.printLine "It's not four"
+
+sean.test = '(isFour 4)

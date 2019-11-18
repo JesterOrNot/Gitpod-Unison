@@ -1,0 +1,4 @@
+sumUpTo : Nat -> Nat
+sumUpTo n =
+  if n < 2 then n
+  else n + sumUpto (drop n 1)

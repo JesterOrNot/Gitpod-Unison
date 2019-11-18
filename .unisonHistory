@@ -1,0 +1,29 @@
+qq
+run sean.test
+run sean.test
+add z.u
+run sean.test
+run sean.test
+run sean.test
+execute sean.test
+add z.u
+add test.u
+?
+run.file
+run program
+run !test
+run test
+run
+add test.u
+add test.u
+add test.u
+!program
+add test.u
+!program
+execute !program
+add test.u
+add test.u
+add test.u
+add hello.u
+hello.u
+pull https://github.com/unisonweb/base .base
