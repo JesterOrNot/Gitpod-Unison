@@ -19,6 +19,6 @@ ENV PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$PATH \
 RUN git clone https://github.com/Homebrew/brew /home/linuxbrew/.linuxbrew/Homebrew \
     && mkdir /home/linuxbrew/.linuxbrew/bin \
     && ln -s ../Homebrew/bin/brew /home/linuxbrew/.linuxbrew/bin/ \
-    && brew config
+    && brew config \
     && brew tap unisonweb/unison \
     && brew install unison-language
