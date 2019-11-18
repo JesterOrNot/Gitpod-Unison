@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM debian
 RUN sudo apt-get update && sudo apt-get install -y libtinfo5
 
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)" && brew tap unisonweb/unison && brew install unison-language
