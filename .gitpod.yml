@@ -9,3 +9,6 @@ ports:
 tasks:
 - init: echo 'init script' # runs during prebuild
   command: echo 'start script'
+vscode:
+  extensions:
+    - BenFradet.vscode-unison@0.1.0:7b4HBnFk1jwP1SwC2XNNUA==
